@@ -38,7 +38,7 @@ namespace LinqExercise
             //TODO: Order numbers in decsending order adn print to the console
             var decend = numbers.OrderByDescending(x => x);
             Console.WriteLine("Numbers in decsending order: \n");
-            foreach (var x in ascend)
+            foreach (var x in decend)
             {
                 Console.WriteLine(x);
             }
@@ -129,6 +129,8 @@ namespace LinqExercise
             Console.WriteLine();
 
             Console.ReadLine();
+
+
         }
 
         #region CreateEmployeesMethod
